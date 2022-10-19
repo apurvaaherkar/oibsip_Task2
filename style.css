@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    background:linear-gradient(#140022,rgb(208, 116, 234));
+    min-height: 100vh;
+    border: 15px solid #271114;
+  }
+  
+  .content {
+    max-width: 900px;
+    margin: 0 auto;
+    color: rgb(121, 179, 238);
+  }
+  .top_section{
+    font-size: larger;
+    font-weight: bold;
+    font-style: oblique;
+  
+  }
+ 
+  
+  .image_container {
+    border-radius: 100%;
+    overflow: visible;
+  }
+  
+  .image_container,
+  img {
+    width: 1100px;
+    height: 700px;
+    margin: 0 auto; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .about_section {
+    margin-top: 750px;
+
+  }
+  .about_section h1 {
+    font-size: 70px;
+    font-weight: 900;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(188, 149, 247);
+    margin-bottom: 20px;
+  }
+  .about_section h4 {
+    font-size: 20px;
+    font-weight:100px;
+    font-style: italic;
+    color: rgb(232, 221, 246);
+    margin-bottom: 20px;
+  }
+  
+  .about_section h2 {
+    font-size: 70px;
+    font-weight: 400;
+    font-style: italic;
+    color: rgb(45, 2, 37);
+    margin-bottom: 20px;
+  }
+  .about_section p {
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(185, 151, 252);
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    text-align: justify;
+    text-decoration: wavy;
+  }
+  .International_Information {
+    margin: 50px 0;
+  }
+  .International_Information h3 {
+    margin-bottom: 20px;
+  }
+  .International_Information ul {
+    margin-left: 50px;
+  }
+  .International_Information li {
+    margin-bottom: 15px;
+  }
+  .International_Information {
+    font-style: italic;
+  }
+  .International_Information {
+    font-size: larger;
+    font-weight: 900;
+  }
+  .International_Information {
+    color: rgb(19, 2, 57);
+  }
+  footer {
+    margin: 50px 0;
+  }
+  footer p {
+    text-align: end;
+  }
